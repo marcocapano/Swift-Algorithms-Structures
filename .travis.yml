@@ -1,0 +1,6 @@
+os: linux
+language: generic
+env:
+    - SWIFT_VERSION=4.2
+script:
+    - swift test
